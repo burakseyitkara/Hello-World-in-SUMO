@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-07 12:20:02 by Eclipse SUMO duarouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Repos\Hello%20World%20in%20SUMO\2022-04-07-12-19-50\osm.net.xml"/>
+        <route-files value="D:\Repos\Hello%20World%20in%20SUMO\2022-04-07-12-19-50\osm.tram.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.rou.xml"/>
+        <alternatives-output value="routes.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram_tram" vClass="tram"/>
+    <vehicle id="tram8" type="tram_tram" depart="835.73" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="273.56" probability="1.00000000" edges="239012693#0 239012693#4 239012693#5 239012693#6 239012693#7 239012693#8 239012693#9 894680494#0 894680494#1 280810358#0 280810358#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram11" type="tram_tram" depart="1149.13" departLane="best">
+        <routeDistribution last="0">
+            <route cost="198.24" probability="1.00000000" edges="280810358#2 894680494#5 894680494#8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram17" type="tram_tram" depart="1775.93" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="384.51" probability="1.00000000" edges="326686286#0 326686286#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram23" type="tram_tram" depart="2402.73" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="384.51" probability="1.00000000" edges="894698942#0 894698942#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram24" type="tram_tram" depart="2507.20" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="211.70" probability="1.00000000" edges="239012693#0 239012693#4 239012693#5 239012693#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram29" type="tram_tram" depart="3029.53" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="384.51" probability="1.00000000" edges="326686286#0 326686286#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram30" type="tram_tram" depart="3134.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="384.51" probability="1.00000000" edges="326686286#0 326686286#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="tram32" type="tram_tram" depart="3342.93" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="213.89" probability="1.00000000" edges="239012693#0 239012693#4 239012693#5 239012693#6 239012693#7"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

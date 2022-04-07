@@ -4,11 +4,11 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="D:\Repos\Test1\helloWorld.net.xml"/>
+        <sumo-net-file value="D:\Repos\v2\helloWorld.net.xml"/>
     </input>
 
     <output>
-        <output-file value="D:\Repos\Test1\helloWorld.net.xml"/>
+        <output-file value="D:\Repos\v2\helloWorld.net.xml"/>
     </output>
 
     <processing>
@@ -30,7 +30,7 @@
     </pedestrian>
 
     <netedit>
-        <route-files value="D:\Repos\Test1\helloWorld.rou.xml"/>
+        <route-files value="D:\Repos\v2\helloWorld.rou.xml"/>
     </netedit>
 
     <report>
